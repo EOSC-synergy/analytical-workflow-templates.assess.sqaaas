@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-fuchsia-turkey.sh
-        container: qc.sty_lovely-peach-toucan
+        - /usr/bin/env sh .sqa/script.goopy-lavender-nightingale.sh
+        container: qc.sty_snappy-mauve-dachsbracke
 timeout: 5400
