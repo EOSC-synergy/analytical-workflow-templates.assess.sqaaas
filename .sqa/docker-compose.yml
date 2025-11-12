@@ -1,5 +1,5 @@
 services:
-  qc.sty_sleazy-dandelion-bongo:
+  qc.sty_whiny-ochre-mongrel:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
