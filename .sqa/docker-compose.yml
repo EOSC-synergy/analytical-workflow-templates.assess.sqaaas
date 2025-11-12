@@ -1,5 +1,5 @@
 services:
-  qc.sty_bumpy-blue-akita:
+  qc.sty_sunny-auburn-greyhound:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
