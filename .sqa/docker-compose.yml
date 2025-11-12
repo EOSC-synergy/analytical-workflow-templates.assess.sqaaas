@@ -1,5 +1,5 @@
 services:
-  qc.sty_snappy-mauve-dachsbracke:
+  qc.sty_snippy-plum-bombay:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
