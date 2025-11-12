@@ -1,5 +1,5 @@
 services:
-  qc.sty_whiny-ochre-mongrel:
+  qc.sty_muzzy-indigo-molly:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
