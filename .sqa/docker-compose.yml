@@ -1,5 +1,5 @@
 services:
-  qc.sty_snippy-plum-bombay:
+  qc.sty_randy-celadon-gerbil:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile

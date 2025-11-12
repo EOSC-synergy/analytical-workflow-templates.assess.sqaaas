@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-gold-lizard.sh
-        container: qc.sty_snippy-plum-bombay
+        - /usr/bin/env sh .sqa/script.leaky-sepia-macaque.sh
+        container: qc.sty_randy-celadon-gerbil
 timeout: 5400
