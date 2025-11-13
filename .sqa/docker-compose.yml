@@ -1,5 +1,5 @@
 services:
-  qc.sty_bumpy-teal-mole:
+  qc.sty_sleazy-gold-squid:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
