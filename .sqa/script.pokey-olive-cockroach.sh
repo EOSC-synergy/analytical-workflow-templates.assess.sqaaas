@@ -5,5 +5,5 @@
 
 (
 cd gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates &&
-    git rev-parse --is-inside-work-tree 
+    pynblint.py
 )
