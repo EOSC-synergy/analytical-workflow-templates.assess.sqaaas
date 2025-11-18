@@ -1,5 +1,5 @@
 services:
-  qc.sty_snoopy-rust-bulldog:
+  qc.sty_snappy-amber-hamster:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
