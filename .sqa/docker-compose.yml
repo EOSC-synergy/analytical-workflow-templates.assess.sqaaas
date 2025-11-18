@@ -1,5 +1,5 @@
 services:
-  qc.sty_sloppy-flax-sponge:
+  qc.sty_lousy-black-cat:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
