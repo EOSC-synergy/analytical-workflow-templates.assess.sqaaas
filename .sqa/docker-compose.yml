@@ -1,5 +1,5 @@
 services:
-  qc.sty_snappy-amber-hamster:
+  qc.sty_grumpy-cinnamon-jackal:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
