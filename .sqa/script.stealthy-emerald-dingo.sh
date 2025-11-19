@@ -5,5 +5,5 @@
 
 (
 cd gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates &&
-    jsonlint-cli "**/*.json"
+    pynblint.py
 )
