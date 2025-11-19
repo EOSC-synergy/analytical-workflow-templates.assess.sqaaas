@@ -1,5 +1,5 @@
 services:
-  qc.sty_grumpy-cinnamon-jackal:
+  qc.sty_wimpy-cream-bulldog:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
