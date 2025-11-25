@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-corn-capuchin.sh
-        container: qc.acc_trippy-platinum-bombay
+        - /usr/bin/env sh .sqa/script.fuzzy-crimson-vulture.sh
+        container: qc.acc_geeky-aqua-dolphin
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-chestnut-dalmatian.sh
-        container: qc.doc_zippy-pear-stingray
+        - /usr/bin/env sh .sqa/script.gloppy-crimson-caterpillar.sh
+        container: qc.doc_gamy-firebrick-budgerigar
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-cornflower-slug.sh
-        container: qc.doc_silly-sepia-audemer
+        - /usr/bin/env sh .sqa/script.lumpy-black-chinchilla.sh
+        container: qc.doc_stealthy-emerald-kudu
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-orchid-hedgehog.sh
-        container: qc.doc_shaky-amaranth-cow
+        - /usr/bin/env sh .sqa/script.craggy-sangria-caracal.sh
+        container: qc.doc_silly-jade-rhinoceros
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-alizarin-leopard.sh
-        container: qc.lic_grumpy-cream-wasp
+        - /usr/bin/env sh .sqa/script.dorky-magnolia-impala.sh
+        container: qc.lic_grumpy-heliotrope-donkey
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-harlequin-uguisu.sh
-        container: qc.sty_sickly-azure-uguisu
+        - /usr/bin/env sh .sqa/script.skinny-charcoal-coati.sh
+        container: qc.sty_snazzy-sepia-bracke
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-amber-gibbon.sh
-        container: qc.ver_fuzzy-champagne-bonobo
+        - /usr/bin/env sh .sqa/script.grumpy-carmine-vole.sh
+        container: qc.ver_queasy-zucchini-fish
 timeout: 5400
