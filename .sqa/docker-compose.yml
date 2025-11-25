@@ -1,5 +1,5 @@
 services:
-  qc.sty_silly-puce-lemur:
+  qc.sty_woolly-amber-whale:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
