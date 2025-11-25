@@ -1,5 +1,5 @@
 services:
-  qc.sty_goopy-mustard-newfoundland:
+  qc.sty_lanky-olivine-insect:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile

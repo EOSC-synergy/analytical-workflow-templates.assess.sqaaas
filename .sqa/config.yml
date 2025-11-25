@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-asparagus-tapir.sh
-        container: qc.sty_goopy-mustard-newfoundland
+        - /usr/bin/env sh .sqa/script.surly-bistre-woodpecker.sh
+        container: qc.sty_lanky-olivine-insect
 timeout: 5400
