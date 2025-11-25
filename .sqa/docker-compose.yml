@@ -1,5 +1,5 @@
 services:
-  qc.sty_pretty-coral-lobster:
+  qc.sty_gummy-cobalt-jellyfish:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
