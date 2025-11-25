@@ -1,5 +1,5 @@
 services:
-  qc.sty_woolly-amber-whale:
+  qc.sty_goopy-mustard-newfoundland:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile

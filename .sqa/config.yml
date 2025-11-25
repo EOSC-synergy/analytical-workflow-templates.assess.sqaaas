@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-firebrick-capybara.sh
-        container: qc.sty_woolly-amber-whale
+        - /usr/bin/env sh .sqa/script.sleazy-asparagus-tapir.sh
+        container: qc.sty_goopy-mustard-newfoundland
 timeout: 5400
