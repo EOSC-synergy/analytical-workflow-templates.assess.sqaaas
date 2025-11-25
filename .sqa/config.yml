@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-crimson-vulture.sh
-        container: qc.acc_geeky-aqua-dolphin
+        - /usr/bin/env sh .sqa/script.boozy-seashell-collie.sh
+        container: qc.acc_scaly-turquoise-mole
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-crimson-caterpillar.sh
-        container: qc.doc_gamy-firebrick-budgerigar
+        - /usr/bin/env sh .sqa/script.stinky-magnolia-caracal.sh
+        container: qc.doc_woozy-amaranth-goat
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-black-chinchilla.sh
-        container: qc.doc_stealthy-emerald-kudu
+        - /usr/bin/env sh .sqa/script.breezy-denim-hyena.sh
+        container: qc.doc_muzzy-lemon-coyote
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-sangria-caracal.sh
-        container: qc.doc_silly-jade-rhinoceros
+        - /usr/bin/env sh .sqa/script.gimpy-aquamarine-chihuahua.sh
+        container: qc.doc_snappy-coral-tarantula
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-magnolia-impala.sh
-        container: qc.lic_grumpy-heliotrope-donkey
+        - /usr/bin/env sh .sqa/script.blurry-orchid-armadillo.sh
+        container: qc.lic_stuffy-lilac-affenpinscher
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-charcoal-coati.sh
-        container: qc.sty_snazzy-sepia-bracke
+        - /usr/bin/env sh .sqa/script.tacky-sangria-cassowary.sh
+        container: qc.sty_flaky-buff-opossum
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-carmine-vole.sh
-        container: qc.ver_queasy-zucchini-fish
+        - /usr/bin/env sh .sqa/script.shaggy-tangerine-opossum.sh
+        container: qc.ver_fuzzy-gold-devil
 timeout: 5400
