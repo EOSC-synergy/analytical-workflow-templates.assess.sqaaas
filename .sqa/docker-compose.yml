@@ -1,5 +1,5 @@
 services:
-  qc.sty_tacky-cyan-dragonfly:
+  qc.sty_silly-puce-lemur:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
