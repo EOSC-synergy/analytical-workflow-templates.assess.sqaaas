@@ -11,10 +11,42 @@ environment:
   JPL_DOCKERFORCEBUILD: enabled
   JPL_KEEPGOING: enabled
 sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
+        commands:
+        - /usr/bin/env sh .sqa/script.goopy-fuchsia-turtle.sh
+        container: qc.acc_randy-zucchini-beaver
+  QC.Doc:
+    repos:
+      gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.skinny-aquamarine-chicken.sh
+        container: qc.doc_scummy-jade-booby
+      gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
+        commands:
+        - /usr/bin/env sh .sqa/script.goopy-viridian-cuttlefish.sh
+        container: qc.doc_muzzy-dandelion-seahorse
+      gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.seedy-myrtle-tzu.sh
+        container: qc.doc_bluesy-vermilion-cuscus
+  QC.Lic:
+    repos:
+      gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.woolly-ochre-chihuahua.sh
+        container: qc.lic_geeky-xanthic-monkey
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-indigo-cheetah.sh
-        container: qc.sty_gamy-olivine-ladybird
+        - /usr/bin/env sh .sqa/script.fuzzy-salmon-quail.sh
+        container: qc.sty_bluesy-burgundy-hummingbird
+  QC.Ver:
+    repos:
+      gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.lousy-bistre-bongo.sh
+        container: qc.ver_droopy-zucchini-deer
 timeout: 5400
