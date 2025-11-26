@@ -1,5 +1,5 @@
 services:
-  qc.sty_muzzy-grey-shrimp:
+  qc.sty_surly-salmon-liger:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
