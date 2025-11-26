@@ -1,5 +1,5 @@
 services:
-  qc.sty_surly-salmon-liger:
+  qc.sty_leaky-amethyst-termite:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
