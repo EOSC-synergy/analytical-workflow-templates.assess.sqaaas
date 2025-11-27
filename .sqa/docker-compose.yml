@@ -1,5 +1,5 @@
 services:
-  qc.sty_dorky-tan-ocelot:
+  qc.sty_queasy-tan-whale:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
