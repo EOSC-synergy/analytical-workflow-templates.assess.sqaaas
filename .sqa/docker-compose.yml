@@ -1,5 +1,5 @@
 services:
-  qc.sty_chewy-aquamarine-grasshopper:
+  qc.sty_crappy-teal-chameleon:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
