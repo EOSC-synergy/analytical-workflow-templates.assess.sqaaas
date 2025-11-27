@@ -1,5 +1,5 @@
 services:
-  qc.sty_freaky-sapphire-monster:
+  qc.sty_squirrely-lilac-ostrich:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
