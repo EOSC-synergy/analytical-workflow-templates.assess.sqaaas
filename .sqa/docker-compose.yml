@@ -1,5 +1,5 @@
 services:
-  qc.sty_squirrely-lilac-ostrich:
+  qc.sty_droopy-flax-foxhound:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
