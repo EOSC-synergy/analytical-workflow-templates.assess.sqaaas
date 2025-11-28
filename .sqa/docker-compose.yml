@@ -1,5 +1,5 @@
 services:
-  qc.sty_messy-cardinal-bongo:
+  qc.sty_scanty-lemon-whale:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
