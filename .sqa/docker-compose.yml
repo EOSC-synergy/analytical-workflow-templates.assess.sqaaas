@@ -1,5 +1,5 @@
 services:
-  qc.sty_beady-ecru-hornet:
+  qc.sty_ready-beige-foxhound:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
