@@ -1,5 +1,5 @@
 services:
-  qc.sty_breezy-corn-kiwi:
+  qc.sty_crappy-silver-dane:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
