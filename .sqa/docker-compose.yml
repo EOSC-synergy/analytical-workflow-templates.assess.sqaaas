@@ -1,5 +1,5 @@
 services:
-  qc.sty_crappy-silver-dane:
+  qc.sty_muggy-chartreuse-starfish:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
