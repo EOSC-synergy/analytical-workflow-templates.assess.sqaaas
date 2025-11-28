@@ -1,5 +1,5 @@
 services:
-  qc.sty_skanky-bronze-worm:
+  qc.sty_snippy-olivine-kingfisher:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
