@@ -1,5 +1,5 @@
 services:
-  qc.sty_zippy-mauve-mongrel:
+  qc.sty_seedy-thistle-tuatara:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
