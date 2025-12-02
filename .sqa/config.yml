@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-sangria-hippopotamus.sh
-        container: qc.sty_silly-champagne-impala
+        - /usr/bin/env sh .sqa/script.stealthy-ruby-wolf.sh
+        container: qc.sty_zippy-mauve-mongrel
 timeout: 5400
