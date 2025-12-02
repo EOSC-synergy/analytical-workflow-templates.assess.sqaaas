@@ -15,6 +15,6 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-grey-anteater.sh
-        container: qc.sty_flabby-mauve-crane
+        - /usr/bin/env sh .sqa/script.stuffy-sangria-mammoth.sh
+        container: qc.sty_slimy-jade-husky
 timeout: 5400

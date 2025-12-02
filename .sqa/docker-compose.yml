@@ -1,5 +1,5 @@
 services:
-  qc.sty_flabby-mauve-crane:
+  qc.sty_slimy-jade-husky:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
