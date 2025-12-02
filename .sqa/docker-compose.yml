@@ -1,5 +1,5 @@
 services:
-  qc.sty_scanty-green-zebu:
+  qc.sty_crappy-amaranth-insect:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
