@@ -1,5 +1,5 @@
 services:
-  qc.sty_silly-firebrick-zonkey:
+  qc.sty_stinky-lime-iguana:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
