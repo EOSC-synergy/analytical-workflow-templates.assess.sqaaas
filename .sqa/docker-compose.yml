@@ -1,5 +1,5 @@
 services:
-  qc.sty_stinky-lime-iguana:
+  qc.sty_scanty-green-zebu:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
