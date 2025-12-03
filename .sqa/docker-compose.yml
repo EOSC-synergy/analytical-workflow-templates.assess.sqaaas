@@ -1,5 +1,5 @@
 services:
-  qc.sty_crappy-amaranth-insect:
+  qc.sty_frumpy-corn-worm:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
