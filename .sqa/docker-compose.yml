@@ -1,5 +1,5 @@
 services:
-  qc.sty_frumpy-corn-worm:
+  qc.sty_muzzy-maroon-pig:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
