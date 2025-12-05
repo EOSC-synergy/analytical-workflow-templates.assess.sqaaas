@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/analytical-workflow-templates.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/analytical-workflow-templates.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1764937738.1844287
+        "timestamp": 1764938201.5497248
     },
     "repository": [
         {
@@ -1248,8 +1248,8 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
-                        "QC.Lic",
                         "QC.Met",
+                        "QC.Lic",
                         "QC.Acc",
                         "QC.Doc"
                     ],
@@ -1264,19 +1264,19 @@
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Lic",
+                        "QC.Sty",
                         "QC.Met",
-                        "QC.Acc",
                         "QC.Doc",
-                        "QC.Sty",
-                        "QC.Sec",
-                        "QC.Ver"
-                    ],
-                    "missing": [
-                        "QC.Sty",
                         "QC.Sec",
                         "QC.Ver",
+                        "QC.Lic",
+                        "QC.Acc"
+                    ],
+                    "missing": [
+                        "QC.Sec",
+                        "QC.Sty",
                         "QC.Met",
+                        "QC.Ver",
                         "QC.Doc"
                     ],
                     "fulfilled": [
@@ -1286,28 +1286,28 @@
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Lic",
-                        "QC.Del",
                         "QC.Man",
-                        "QC.Wor",
-                        "QC.Met",
-                        "QC.Acc",
-                        "QC.Doc",
                         "QC.Sty",
+                        "QC.Met",
+                        "QC.Uni",
+                        "QC.Doc",
+                        "QC.Del",
                         "QC.Sec",
+                        "QC.Wor",
                         "QC.Ver",
-                        "QC.Uni"
+                        "QC.Lic",
+                        "QC.Acc"
                     ],
                     "missing": [
-                        "QC.Del",
                         "QC.Man",
-                        "QC.Wor",
-                        "QC.Met",
-                        "QC.Doc",
                         "QC.Sty",
+                        "QC.Met",
+                        "QC.Uni",
+                        "QC.Doc",
+                        "QC.Del",
                         "QC.Sec",
-                        "QC.Ver",
-                        "QC.Uni"
+                        "QC.Wor",
+                        "QC.Ver"
                     ],
                     "fulfilled": [
                         "QC.Lic",
