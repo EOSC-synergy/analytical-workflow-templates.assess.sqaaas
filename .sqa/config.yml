@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-myrtle-crab.sh
-        container: qc.acc_cloudy-blue-kingfisher
+        - /usr/bin/env sh .sqa/script.skanky-brown-spoonbill.sh
+        container: qc.acc_stinky-turquoise-kangaroo
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-xanthic-seahorse.sh
-        container: qc.doc_nerdy-wheat-centipede
+        - /usr/bin/env sh .sqa/script.silly-champagne-tuatara.sh
+        container: qc.doc_cozy-tan-kudu
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-buff-flamingo.sh
-        container: qc.doc_dorky-coral-koala
+        - /usr/bin/env sh .sqa/script.sickly-blue-squid.sh
+        container: qc.doc_wheezy-denim-heron
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-charcoal-ragdoll.sh
-        container: qc.doc_fuzzy-cornflower-badger
+        - /usr/bin/env sh .sqa/script.snappy-aquamarine-orangutan.sh
+        container: qc.doc_fuzzy-auburn-boar
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-beige-mongrel.sh
-        container: qc.lic_freaky-chestnut-earwig
+        - /usr/bin/env sh .sqa/script.sickly-khaki-zebra.sh
+        container: qc.lic_boozy-ultramarine-weasel
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-zucchini-coral.sh
-        container: qc.sty_scanty-carmine-penguin
+        - /usr/bin/env sh .sqa/script.thirsty-burgundy-manatee.sh
+        container: qc.sty_squirrely-rose-chameleon
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-teal-ladybird.sh
-        container: qc.ver_scanty-viridian-spitz
+        - /usr/bin/env sh .sqa/script.tasty-grey-dingo.sh
+        container: qc.ver_whiny-amber-barracuda
 timeout: 5400
