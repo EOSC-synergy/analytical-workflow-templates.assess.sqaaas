@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-brown-spoonbill.sh
-        container: qc.acc_stinky-turquoise-kangaroo
+        - /usr/bin/env sh .sqa/script.slimy-zucchini-albatross.sh
+        container: qc.acc_ugly-turquoise-caterpillar
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-champagne-tuatara.sh
-        container: qc.doc_cozy-tan-kudu
+        - /usr/bin/env sh .sqa/script.shabby-rust-cuscus.sh
+        container: qc.doc_geeky-lilac-setter
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-blue-squid.sh
-        container: qc.doc_wheezy-denim-heron
+        - /usr/bin/env sh .sqa/script.trippy-beige-snail.sh
+        container: qc.doc_cloudy-buff-cassowary
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-aquamarine-orangutan.sh
-        container: qc.doc_fuzzy-auburn-boar
+        - /usr/bin/env sh .sqa/script.flimsy-periwinkle-whale.sh
+        container: qc.doc_thirsty-wheat-moose
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-khaki-zebra.sh
-        container: qc.lic_boozy-ultramarine-weasel
+        - /usr/bin/env sh .sqa/script.slimy-apricot-monkey.sh
+        container: qc.lic_thirsty-fuchsia-boar
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-burgundy-manatee.sh
-        container: qc.sty_squirrely-rose-chameleon
+        - /usr/bin/env sh .sqa/script.boozy-aqua-tamarin.sh
+        container: qc.sty_ready-plum-uguisu
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-grey-dingo.sh
-        container: qc.ver_whiny-amber-barracuda
+        - /usr/bin/env sh .sqa/script.snappy-scarlet-moose.sh
+        container: qc.ver_pretty-carmine-barb
 timeout: 5400
