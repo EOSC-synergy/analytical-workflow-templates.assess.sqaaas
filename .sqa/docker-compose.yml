@@ -1,5 +1,5 @@
 services:
-  qc.acc_ugly-turquoise-caterpillar:
+  qc.acc_cheeky-razzmatazz-mandrill:
     command: sleep 6000000
     image: bitnami/git:2.34.1
     volumes:
@@ -7,25 +7,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_cloudy-buff-cassowary:
-    command: sleep 6000000
-    image: bitnami/git:2.34.1
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.doc_geeky-lilac-setter:
-    build:
-      context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc
-      dockerfile: Dockerfile
-    command: sleep 6000000
-    volumes:
-    - source: ./
-      target: /sqaaas-build
-      type: bind
-    working_dir: /sqaaas-build
-  qc.doc_thirsty-wheat-moose:
+  qc.doc_snoopy-harlequin-peccary:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc/markdownlint
       dockerfile: Dockerfile
@@ -35,7 +17,25 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.lic_thirsty-fuchsia-boar:
+  qc.doc_tacky-asparagus-dragonfly:
+    command: sleep 6000000
+    image: bitnami/git:2.34.1
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.doc_wheezy-amaranth-dolphin:
+    build:
+      context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc
+      dockerfile: Dockerfile
+    command: sleep 6000000
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.lic_flabby-silver-lemur:
     command: sleep 6000000
     image: eoscsynergy/sqaaas-licensee:9.17.0
     volumes:
@@ -43,7 +43,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.sty_ready-plum-uguisu:
+  qc.sty_sleepy-emerald-donkey:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Sty/pynblint
       dockerfile: Dockerfile
@@ -53,7 +53,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.ver_pretty-carmine-barb:
+  qc.ver_scaly-brown-vole:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Ver
       dockerfile: Dockerfile
