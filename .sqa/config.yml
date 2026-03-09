@@ -15,42 +15,42 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-persimmon-uakari.sh
-        container: qc.acc_lousy-firebrick-tuatara
+        - /usr/bin/env sh .sqa/script.hilly-brass-husky.sh
+        container: qc.acc_skimpy-wisteria-zonkey
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-alizarin-fly.sh
-        container: qc.doc_cranky-heliotrope-newfoundland
+        - /usr/bin/env sh .sqa/script.shabby-corn-flounder.sh
+        container: qc.doc_flabby-ecru-dragonfly
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-brass-fish.sh
-        container: qc.doc_baggy-ecru-hound
+        - /usr/bin/env sh .sqa/script.skimpy-cyan-abyssinian.sh
+        container: qc.doc_sunny-chartreuse-fox
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-red-mandrill.sh
-        container: qc.doc_goopy-fuchsia-turkey
+        - /usr/bin/env sh .sqa/script.zippy-cerise-bullfrog.sh
+        container: qc.doc_stealthy-magnolia-earwig
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-silver-uguisu.sh
-        container: qc.lic_surly-seashell-squid
+        - /usr/bin/env sh .sqa/script.flimsy-teal-leopard.sh
+        container: qc.lic_beady-aquamarine-penguin
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-wisteria-rhinoceros.sh
-        container: qc.sty_sleepy-gamboge-burmese
+        - /usr/bin/env sh .sqa/script.gummy-thistle-orangutan.sh
+        container: qc.sty_grumpy-mauve-baboon
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-gamboge-eleuth.sh
-        container: qc.sty_hilly-champagne-pig
+        - /usr/bin/env sh .sqa/script.lanky-azure-frise.sh
+        container: qc.sty_leaky-lemon-wallaby
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-sangria-numbat.sh
-        container: qc.ver_beady-brown-vole
+        - /usr/bin/env sh .sqa/script.snazzy-aqua-hound.sh
+        container: qc.ver_sunny-wisteria-mayfly
 timeout: 5400
