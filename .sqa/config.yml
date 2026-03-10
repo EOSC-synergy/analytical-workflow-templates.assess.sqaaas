@@ -15,42 +15,42 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-celadon-jellyfish.sh
-        container: qc.acc_shaggy-carmine-bloodhound
+        - /usr/bin/env sh .sqa/script.lousy-gamboge-bat.sh
+        container: qc.acc_gimpy-grey-dachsbracke
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-cardinal-mandrill.sh
-        container: qc.doc_ready-brass-chinook
+        - /usr/bin/env sh .sqa/script.chewy-sapphire-chimpanzee.sh
+        container: qc.doc_blurry-denim-loon
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-olive-setter.sh
-        container: qc.doc_beady-blue-frog
+        - /usr/bin/env sh .sqa/script.breezy-ultramarine-chinchilla.sh
+        container: qc.doc_jumpy-indigo-tetra
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-pumpkin-sloth.sh
-        container: qc.doc_seedy-cornflower-frog
+        - /usr/bin/env sh .sqa/script.queasy-white-labradoodle.sh
+        container: qc.doc_messy-goldenrod-quail
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-sepia-wildebeest.sh
-        container: qc.lic_clammy-red-abyssinian
+        - /usr/bin/env sh .sqa/script.shabby-thistle-crab.sh
+        container: qc.lic_wheezy-emerald-sloth
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-turquoise-vole.sh
-        container: qc.sty_lousy-copper-kiwi
+        - /usr/bin/env sh .sqa/script.pretty-viridian-newfoundland.sh
+        container: qc.sty_nerdy-brown-tuatara
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-celadon-lobster.sh
-        container: qc.sty_skimpy-carmine-horse
+        - /usr/bin/env sh .sqa/script.skimpy-pink-falcon.sh
+        container: qc.sty_clammy-asparagus-mayfly
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-mauve-duck.sh
-        container: qc.ver_pasty-jade-caracal
+        - /usr/bin/env sh .sqa/script.silly-brass-uguisu.sh
+        container: qc.ver_stealthy-periwinkle-deer
 timeout: 5400
