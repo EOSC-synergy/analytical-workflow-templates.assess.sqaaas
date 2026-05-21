@@ -15,42 +15,42 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.avocado_generous_hawk.sh
-        container: qc.acc_heather_stubborn_horse
+        - /usr/bin/env sh .sqa/script.zinnia_restless_porcupine.sh
+        container: qc.acc_sapphire_dizzy_hippopotamus
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lagoon_content_camel.sh
-        container: qc.doc_dahlia_cautious_impala
+        - /usr/bin/env sh .sqa/script.cadet_calm_roc.sh
+        container: qc.doc_puce_curious_quokka
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.brown_quirky_porcupine.sh
-        container: qc.doc_yellow_humorous_emu
+        - /usr/bin/env sh .sqa/script.saffron_grumpy_hamster.sh
+        container: qc.doc_pistachio_goofy_jaguar
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.iris_skeptical_gecko.sh
-        container: qc.doc_sienna_bright_griffin
+        - /usr/bin/env sh .sqa/script.taupe_daring_kookaburra.sh
+        container: qc.doc_thunder_passionate_kangaroo
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wine_stubborn_penguin.sh
-        container: qc.lic_heather_romantic_manatee
+        - /usr/bin/env sh .sqa/script.ochre_attentive_toad.sh
+        container: qc.lic_navy_respectful_horse
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ash_upbeat_roadrunner.sh
-        container: qc.sty_umber_stoic_axolotl
+        - /usr/bin/env sh .sqa/script.gamboge_bright_impala.sh
+        container: qc.sty_sage_gentle_falcon
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smoke_focused_quokka.sh
-        container: qc.sty_walnut_sarcastic_spider
+        - /usr/bin/env sh .sqa/script.cherry_reliable_goose.sh
+        container: qc.sty_denim_diligent_stingray
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.horizon_proud_roc.sh
-        container: qc.ver_ochre_rustic_tortoise
+        - /usr/bin/env sh .sqa/script.peony_careful_peacock.sh
+        container: qc.ver_thistle_peppy_dugong
 timeout: 5400
