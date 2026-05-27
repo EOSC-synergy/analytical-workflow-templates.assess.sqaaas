@@ -15,42 +15,42 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.dawn_passionate_reindeer.sh
-        container: qc.acc_cherry_positive_salamander
+        - /usr/bin/env sh .sqa/script.coral_humble_orca.sh
+        container: qc.acc_mango_friendly_bat
   QC.Doc:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cyan_rustic_quokka.sh
-        container: qc.doc_heather_rustic_okapi
+        - /usr/bin/env sh .sqa/script.cornflower_jubilant_raven.sh
+        container: qc.doc_echelon_content_gecko
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates git:
         commands:
-        - /usr/bin/env sh .sqa/script.gamboge_polite_dhole.sh
-        container: qc.doc_harlequin_adaptable_squid
+        - /usr/bin/env sh .sqa/script.zinnia_loving_piranha.sh
+        container: qc.doc_heather_reserved_giraffe
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pansy_zany_fox.sh
-        container: qc.doc_fog_attentive_kookaburra
+        - /usr/bin/env sh .sqa/script.hunter_sincere_swan.sh
+        container: qc.doc_pumpkin_nurturing_gnu
   QC.Lic:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.orchid_resourceful_raven.sh
-        container: qc.lic_cornflower_open_hippopotamus
+        - /usr/bin/env sh .sqa/script.silver_wondrous_nighthawk.sh
+        container: qc.lic_tangerine_apprehensive_pegasus
   QC.Sty:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.indigo_upbeat_dugong.sh
-        container: qc.sty_aqua_supportive_meerkat
+        - /usr/bin/env sh .sqa/script.denim_bubbly_serval.sh
+        container: qc.sty_dahlia_devoted_frog
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ice_generous_stork.sh
-        container: qc.sty_marigold_dizzy_swan
+        - /usr/bin/env sh .sqa/script.steel_mischievous_orca.sh
+        container: qc.sty_pumpkin_spontaneous_nymph
   QC.Ver:
     repos:
       gitlab.a.incd.pt/envri-hub-next/analytical-workflow-templates get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pink_pensive_newt.sh
-        container: qc.ver_reef_productive_falcon
+        - /usr/bin/env sh .sqa/script.ecru_insightful_quokka.sh
+        container: qc.ver_smoke_calm_hyena
 timeout: 5400
